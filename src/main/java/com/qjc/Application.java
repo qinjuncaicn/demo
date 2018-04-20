@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
+
 @SpringBootApplication
 @MapperScan("com.qjc.mapper")//将项目中对应的mapper类的路径加进来就可以了
 public class Application extends SpringBootServletInitializer {
