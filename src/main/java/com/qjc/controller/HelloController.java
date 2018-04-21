@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Map;
 
+/**
+ * test
+ */
 @Controller
 @RequestMapping("/")
 public class HelloController {
